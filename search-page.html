@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<title>LOC Search Engine</title>
+</head>
+<body>
+    <div class="container">
+      <form id="search-form">
+        <div class="form-group">
+          <label for="earch-input">Search Library For:</label>
+          <input type="text" class="form-control" id="search-input" placeholder="Search for anything">
+        </div>
+        <div class="form-group">
+          <label for="format-input">Select a format:</label>
+          <select class="form-control" id="format-input">
+            <option value="all" disabled selected> All</option>
+            <option value="audio">Audio Recordings</option>
+            <option value="photos">Photos</option>
+            <option value="newspapers">Newspapers</option>
+            <option value="websites">Websites</option>
+            <option  value="manuscripts">Manuscripts</option>
+            <option value="maps">Maps</option>
+            <option value="film-and-vidoes">Videos</option>
+          </select>
+          <button type="button" class="btn btn-primary" id="search-button">Search</button>
+        </div>
+      </form>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
